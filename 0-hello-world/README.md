@@ -44,6 +44,12 @@ docker images
 docker run hello-world
 ```
 
+we always want to use container_name to avoid confusion we can add the `--name` to specify it
+
+```sh
+docker run --name first-container hello-world 
+```
+
 ## Execute command in the container
 
 ```sh
@@ -55,4 +61,10 @@ For example, let's say we want to run shell in ubuntu
 ```sh
 docker pull ubuntu
 docker run -it ubuntu bash
+```
+
+## Remove Container
+
+```sh
+docker rm <CONTAINER_NAME/ID>
 ```
