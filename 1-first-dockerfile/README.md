@@ -6,7 +6,7 @@ generally dockerfile should be named with the capital `D`, `Dockerfile`, but you
 
 From is specify what a base image will be used for our dockerfile
 
-```sh
+```dockerfile
 FROM postgres:latest
 FROM redis:alpine
 ```
@@ -15,7 +15,7 @@ FROM redis:alpine
 
 ENV will add the environment when building the image, the env then will be created in the container
 
-```sh
+```dockerfile
 ENV a=b
 ```
 
