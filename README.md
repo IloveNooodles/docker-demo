@@ -13,3 +13,7 @@ Create simple docker file (database)
 ## 2-simple-webapp
 
 dockerize web application
+
+## Summary
+
+![img]("./img/arc-4-feb.png")

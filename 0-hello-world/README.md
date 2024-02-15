@@ -47,7 +47,7 @@ docker run hello-world
 we always want to use container_name to avoid confusion we can add the `--name` to specify it
 
 ```sh
-docker run --name first-container hello-world 
+docker run --name -it first-container hello-world 
 ```
 
 ## Execute command in the container
